@@ -1,0 +1,4 @@
+npm install -g json-server
+
+and cd to mydata.json and run it using ---- json-server (directoty and then filename)
+json-server public/mydata.json --port 8000

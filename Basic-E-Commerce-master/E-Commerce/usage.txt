@@ -1,0 +1,4 @@
+First run mydata.json using 
+json-server .\public\mydata.json --port 8000
+
+and then npm start
