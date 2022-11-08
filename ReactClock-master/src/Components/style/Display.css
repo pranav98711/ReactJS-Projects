@@ -1,0 +1,36 @@
+
+.parent         {display: table; 
+    margin: 100px auto;
+    background :rgb(33, 37, 41);
+    height: 400px;
+    width: 100%;
+    
+    
+}
+
+.middle         {display: table-cell; 
+    vertical-align: middle;
+    }
+
+.circle         {margin: auto;
+    border: solid 40px rgb(66, 38, 75);
+    border-radius: 50%;
+    opacity: 100%;
+    width: 280px;
+    height:280px;
+    text-align: center;
+    
+}
+
+p{
+
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    color: rgb(97, 218, 251);
+    padding-top: 55px;
+
+}
+
+
+
