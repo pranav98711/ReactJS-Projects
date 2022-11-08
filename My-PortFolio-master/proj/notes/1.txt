@@ -1,0 +1,48 @@
+npm install --save react-mdl
+
+
+For help ---
+
+https://www.npmjs.com/package/react-mdl#description
+https://tleunen.github.io/react-mdl/components/layout/
+
+---------------------------
+npm install --save react-router-dom
+
+in index.js
+import {BrowserRouter} from 'react-router-dom';
+
+and
+
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+    , document.getElementById('root'));
+
+----------------------------
+
+_blank -- it will open link in new tab
+
+
+Also we use icons for linkend and facebook and all, uuse 'font awesome' website
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+-------------------------
+
+<Tabs activeTab={this.setState.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple >
+                    <Tab>React</Tab>
+                    <Tab>Angular</Tab>
+                    <Tab>Node</Tab>
+                    <Tab>Java</Tab>
+                </Tabs>
+
+
+
+ ripple gives kind of an effext
+ and React ka tab as id 0 and angularka tab has value 1 and so on.
+
+ For Cards go to mdl documentation and copy paste all.
+
+ 
+
